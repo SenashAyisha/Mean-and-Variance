@@ -54,6 +54,7 @@ REGISTER NO.: 212225040394
 
 
 import numpy as np
+```
 L = [int(i) for i in input("Enter arrival data: ").split()]
 N = len(L)
 M = max(L)
@@ -79,6 +80,7 @@ for i in range(M + 1):
 print(f"\nThe Mean arrival rate is {mean:.3f}")
 print(f"The Variance of arrival from feeder is {var:.3f}")
 print(f"The Standard deviation of arrival from feeder is {SD:.3f}")
+```
 
 
 # Output : 
